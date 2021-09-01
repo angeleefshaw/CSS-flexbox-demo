@@ -1,0 +1,76 @@
+body {
+    margin: 0;
+    border: 0;
+    font-family: 'Roboto Mono', monospace;
+  }
+  
+  h1 {
+    font-size: 18px;
+    text-align: center;
+  }
+  
+  h2 {
+    font-size: 16px;
+    text-align: center;
+  }
+
+  .description {
+    margin-left:auto;
+    margin-right:auto;
+    text-align:center;
+    width: 500px;
+  }
+
+  .container {
+    background-color: whitesmoke;
+  }
+  
+  .box {
+    background-color: dodgerblue;
+    height: 100px;
+    width: 100px;
+    border: 1px solid lightgrey;
+  }
+
+  .box-justify {
+    height: 75px;
+    width: 100px;
+    background-color: dodgerblue;
+    border: 1px solid lightgrey;
+    display: inline-block;
+  }
+  
+  #flex {
+    display:flex;
+  }
+
+  .inline-flex-container {
+    width: 150px;
+    border: 1px solid grey;
+    display: inline-flex;
+  }
+
+  #flexstart {
+    display: flex;
+    justify-content: flex-start;
+  }
+  
+  #flexend {
+    display: flex;
+    justify-content: flex-end;
+  }
+  
+  #center {
+    display: flex;
+    justify-content: center;
+  }
+  
+  #spacearound {
+    display: flex;
+    justify-content: space-around;
+  }
+  
+  #spacebetween {
+    display: flex;
+    justify-content: space-between;
+  }
